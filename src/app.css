@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer base {
+   
+}
+
+.input {
+    @apply border border-gray-300 shadow-inner px-2 py-2 text-gray-700 w-full;
+}
+
+.input:focus {
+    @apply outline-none ring-2 ring-gray-500 border-transparent;
+}
+
+.btn-primary {
+    @apply bg-violet-500 text-white rounded px-4 py-2;
+}
+
+.btn-primary:hover {
+    @apply bg-violet-800
+}
